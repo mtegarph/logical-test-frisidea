@@ -8,7 +8,7 @@ String generateFibonacci(int n) {
     fibonaciList.add(fibonaciList[i - 1] + fibonaciList[i - 2]);
   }
 
-  String result = '${fibonaciList.take(n).join(', ')}, $n';
+  String result = '${fibonaciList.take(n).join(', ')}';
   return result;
 }
 
